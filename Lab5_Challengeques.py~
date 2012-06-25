@@ -1,0 +1,5 @@
+#Problem 4
+def isPalindrome():
+    word = raw_input('Enter the word')
+    for c in word:
+        newWorld = c + newWord

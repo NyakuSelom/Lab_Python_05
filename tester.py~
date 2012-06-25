@@ -145,10 +145,10 @@ def test_isPalindrome():
 	else:
 		return "ERROR: Ran isPalindrome('Able was i ere I saw elba'). Expected False, got:"+str( bla)
 	bla = isPalindrome('amanaplanacanalpanama')
-	if bla:
+	if not bla:
 		pass
 	else:
-		return "ERROR: Ran isPalindrome('amanaplanacanalpanama'). Expected True, got:" + str( bla )
+		return "ERROR: Ran isPalindrome('amanaplanacanalpanama'). Expected False, got:" + str( bla )
 	bla = isPalindrome('a man a plan a canal panama')
 	if not bla:
 		pass
